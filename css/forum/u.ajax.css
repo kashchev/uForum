@@ -1,0 +1,46 @@
+/* Ajax */
+.x-sh, .xw-bl, .xt-maxi, .xt-mini, .xt-rest, .xw-hdr-text, .xw-hdr img {display: none !important;}
+.xw-ml, .xw-mr {
+	margin: 0 !important; padding: 0 !important;
+	background: none !important;
+}
+.xw-mc {
+	float: none;
+	margin: 0; padding: 8px 8px !important;
+	background: #fff !important;
+	border: 1px solid #c4cee0 !important;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	font-weight: normal; color: #333;
+}
+.xw-tl, .xw-tr, .xw-tc, .xw-hdr, .xw-sps .xw-draggable {
+	height: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+}
+.xw-tc {overflow: visible !important;}
+.xt-close {
+	position: absolute !important;
+	width: 36px !important; height: 36px !important;
+	top: -18px; right: -18px;
+	margin: 0 !important;
+	background: url(/.s/src/ulightbox/fancybox_sprite.png) no-repeat !important;
+	z-index: 10014 !important;
+}
+.xw-body {
+	padding: 0 !important;
+	border: 0 !important;
+}
+.myBtnLeft, 
+.myBtnCenter, 
+.myBtnRight {background: none !important;}
+.myWinCont textarea {
+	margin: 0 2% !important;
+	color: #111;
+}
+.myWinCont iframe {
+	display: block;
+	width: 100%; height: 100%;
+}

@@ -1,0 +1,62 @@
+/* Framework */
+.p_relative {position: relative;}
+.p_absolute {position: absolute;}
+.p_fixed {position: fixed;}
+
+.d_none {display: none;}
+.d_block {display: block;}
+
+.fl {float: left;}
+.fr {float: right;}
+
+.base_width {width: 100%;}
+.base_width_important {width: 100%;}
+
+.max {width: 50%;}
+.maxer {width: 60%;}
+.min {width: 25%;}
+.miner {width: 40%;}
+
+.base_height {height: 100%;}
+.base_height_important {height: 100% !important;}
+
+.tl {top: 0; left: 0;}
+.tr {top: 0; right: 0;}
+.bl {bottom: 0; left: 0;}
+
+.center {margin: 0 auto;}
+
+.cover {
+	-webkit-background-size: 102% auto;
+	-moz-background-size: cover;
+	-o-background-size: 102% auto;
+	-khtml-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Yscroll {overflow-y: auto; overflow-x: hidden;}
+.Xscroll {overflow-y: hidden; overflow-x: auto;}
+
+.castration {overflow: hidden;}
+.humane_castration {clear: both;}
+
+.t_left {text-align: left;}
+.t_center {text-align: center;}
+.t_right {text-align: right;}
+
+/*
+ * clearfix
+ */
+.container:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+/*
+ * clearfix from IE/MAC
+ */
+* html .container {height: 1%;}

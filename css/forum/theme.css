@@ -1,0 +1,84 @@
+/* Global elements! */
+::selection {
+	background-color: #778899;
+	color: #fff;
+}
+::-moz-selection {
+	background: none repeat scroll 0 0 #778899;
+	color: #fff;
+}
+::selection {
+	background: none repeat scroll 0 0 #778899;
+	color: #fff;
+}
+
+input[type=button], button {
+	background: #000;
+	color: #fff;
+}
+
+textarea {color: #000;}
+
+/* Global class! */
+.base_back {background-color: #f5f6fa;}
+.white_back {background-color: #fff;}
+.back_black {
+	color: #fff;
+	background: #000;
+}
+.back_0176ff {
+	color: white;
+	background-color: #0176ff;
+}
+
+.black_and_white {
+	-webkit-filter: grayscale(70%);
+	-moz-filter: grayscale(70%);
+	-o-filter: grayscale(70%);
+	-ms-filter: grayscale(70%);
+	filter: grayscale(70%);
+}
+.blur {
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+.brightness {
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-o-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+	filter: brightness(50%);
+}
+
+/* Other ... */
+.active {opacity: 0.66;}
+
+div[id^="post"] .white_back {border: solid 6px white;}
+
+div[id^="f_ava-"] {border: 3px solid #f5f6fa;}
+
+#formbody section.center {border-top: solid 1px #ccc;}
+
+.f_status_icon {border: 3px solid #f5f6fa;}
+
+/* icons */
+#chater:before {
+	content: "\f27b";
+	color: #ccc;
+}
+
+#logo:before {
+	content: '';
+	background-image: url(https://kashcheev.usite.pro/img/logo.png);
+}
+#logo:after {
+	content: '\03B2';
+	background: #f5f6fa;
+}
+
+#info:before {content: '\f129';}
+#hidden a:before {content: '\f0c9';}
+#newtopic:before {content: '\f040';}

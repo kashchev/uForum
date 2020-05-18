@@ -1,0 +1,71 @@
+/* Reset
+==============================
+ */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, cite, em, img, q, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, svg, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0;
+	background: transparent;
+	border: 0;
+	vertical-align: baseline; font-size: 100%; outline: 0;
+}
+
+/* for IE>9 header, footer, aside, nav, section, article, details, svg, figure, figcaption ... */
+header, footer, aside, nav, section, article, svg, canvas, figure, figcaption, textarea {display: block;}
+
+* {outline: 0 !important;}
+::-moz-focus-outer, ::-moz-focus-inner {border: 0;}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	margin: 0; padding: 0;
+	background: transparent;
+	vertical-align: baseline; font-size: 100%;
+}
+
+ol {
+	list-style-type: none;
+	counter-reset: item;
+}
+ol li:before {
+	content: counter(item) ') ';
+	counter-increment: item;
+}
+
+li {list-style: none;}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td, img, input, select, input[type=radio] {vertical-align: middle;}
+
+input[type=text], input[type=email], input[type=url], input[type=password], textarea, select {padding: 10px 15px;}
+
+textarea {
+	border: none;
+	resize: none;
+	font-size: 120%;
+}
+
+textarea:hover, textarea:focus {}
+
+hr {
+	height: 1px;
+	margin: 10px 0;
+	background: rgb(211, 212, 218);
+	border: none;
+	clear: both;
+	color: #303030;
+}
+
+/* for uCoz */
+.FrmTopButtonsTbl, .FrmForumBarTbl, #forum_filter, .navigationTbl, .gTopCornerRight, .gTableSubTop, .funcBlock, #subscribe, .fFastSearchTd {display: none;}
+#uidLogButtonAjx {display: none !important;}
+#baseLogForm, #baseLogFormAjx {display: block !important;}
+#sFltLst {top: 50px !important; left: 430px !important;}
+.FrmBotCl11, .ThrTopButtonsCl11, .ThrBotCl21 {width: 100% !important;}

@@ -1,0 +1,180 @@
+@import url('/css/forum/normalize.css');
+@import url('/css/forum/skeleton.css');
+@import url('/css/forum/theme.css');
+@import url('/css/forum/u.ajax.css');
+@import url('/css/forum/media.q.css');
+@import url('/font/font-awesome.min.css');
+
+/*
+ * base elements
+ */
+body {
+min-width: 320px; width: 100%;
+background: rgb(255, 255, 255);
+word-wrap: break-word; font-family: 'Open Sans', sans-serif; font-size: 100%; font-weight: normal; color: #7f808c;
+-webkit-font-smoothing: antialiased;
+}
+
+a {font-weight: 600; color: #000; text-decoration: none;}
+a:hover, 
+a:active {text-decoration: none;}
+
+a, 
+*:hover {
+-webkit-transition: 0.2s;
+-moz-transition: 0.2s;
+-o-transition: 0.2s;
+-ms-transition: 0.2s;
+transition: 0.2s;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+margin: 7px 0;
+font-size: 120%; color: rgb(193, 205, 193);
+}
+
+p {
+margin: 11px 0;
+line-height: 25px;
+}
+
+/* Content */
+.container {
+display: block;
+margin: 0 10% 20px;
+border-radius: 3px;
+cursor: pointer;
+}
+
+nav {width: 120px;}
+
+nav li a:before, 
+nav li a:after, 
+#chater:before {
+position: absolute;
+font-family: 'FontAwesome';
+}
+
+nav li a:before {font-size: 200%;}
+
+nav li a:not(#logo):before {
+top: 50%; left: 50%;
+transform: translateY(-50%) translateX(-50%);
+}
+#logo:before {
+width: 120px; height: 70px;
+top: 50%; margin-top: -35px;
+left: 0;
+-webkit-background-size: 102% auto;
+-moz-background-size: cover;
+-o-background-size: 102% auto;
+-khtml-background-size: cover;
+background-size: 102% auto;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+}
+
+nav li a:after {position: absolute;}
+
+#logo:after {
+width: 25px; height: 25px;
+top: calc(50% - 37px); right: 30px;
+border-radius: 50%;
+}
+
+#navsub {height: 50px;}
+#navsub li {height: inherit;}
+#navsub a {line-height: 50px;}
+
+aside {width: calc(100% - 120px);}
+
+#feedface {height: calc(100% - 50px);}
+
+#copyblock {
+width: 250px;
+top: 0; left: -250px;
+padding: 0 20px;
+}
+
+#chater:before {
+top: 50%; transform: translateY(-50%);
+left: 50%; transform: translateX(-50%);
+font-size: 400%;
+}
+
+#category, 
+#sections {padding: 0 0%;}
+
+#topicbody {padding: 0 5%;}
+
+div[id^="post"] {
+width: 90%; min-height: 70px;
+margin: 20px 0;
+border-radius: 3px;
+}
+
+div[id^="post"] .white_back {
+position: absolute; position: sticky;
+width: 50px; height: 50px;
+margin-top: -25px; top: 50%;
+left: -25px; margin-left: -25px;
+border-radius: 50%;
+}
+
+div.base_back > .p_relative {padding: 10px 10px 10px 70px;}
+
+div.back_0176ff > .p_relative {padding: 10px;}
+
+div[id^="f_ava-"] {
+width: 50px; height: 50px;
+top: 50%; transform: translateY(-50%);
+margin-left: -25px;
+border-radius: 50%;
+}
+
+#formbody section.center {width: 90%;}
+
+#formbody section .fr {width: 50px;}
+
+textarea#message {
+float: left;
+width: calc(100% - 50px) !important; height: 100%;
+}
+
+#frF16 {
+width: 50px; height: 50px;
+top: 50%; transform: translateY(-50%);
+border-radius: 50%;
+border: none;
+}
+
+.f_status_icon {
+width: 50px; height: 50px;
+top: 50%; transform: translateY(-50%);
+margin-left: -25px;
+border-radius: 50%;
+}
+
+/* auxiliary */
+.cb-active {left: 120px !important;}
+.aside-active {right: -240px !important;}
+
+/* For uCoz */
+.gDivRight {
+position: relative;
+border-radius: 3px;
+}
+.gDivRight a:hover {opacity: 0.66;}
+
+.gTableTop {padding: 10px 0;}
+
+.forumNamesBar {padding: 0 5%;}
+.forumNamesBar {display: none;}
+.threadsDetails, 
+.forumOnlineBar, 
+.FrmBotCl11 {padding: 0 5% 10px;}
