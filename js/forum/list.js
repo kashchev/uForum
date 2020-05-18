@@ -1,0 +1,1 @@
+$('.gDivRight:last').addClass('d_none');
